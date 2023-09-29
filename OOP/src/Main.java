@@ -7,6 +7,7 @@ public class Main {
         choosenFruit.getInfo();
         choosenFruit.growth(0.3);
         choosenFruit.changeColor("Червоний");
+        choosenFruit.getInfo();
 
         System.out.println();
 
@@ -14,6 +15,7 @@ public class Main {
         choosenAnimal.changeAnimalMood("Веселий");
         choosenAnimal.eat(choosenFruit);
         System.out.println("Тепер вага тварини: " + choosenAnimal.weight);
+        choosenAnimal.getInfo();
 
         System.out.println();
 

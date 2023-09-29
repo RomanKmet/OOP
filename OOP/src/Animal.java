@@ -25,7 +25,7 @@ public class Animal {
     }
 
     public void getInfo() {
-        String info = "Name: " + name + ". Type: " + type + ". Breed: " + breed + ". Weight: " + weight + "\n";
+        String info = "Name: " + name + ". Type: " + type + ". Breed: " + breed + ". Weight: " + weight + ". Mood: " + mood + "\n";
         System.out.print(info);
     }
 }

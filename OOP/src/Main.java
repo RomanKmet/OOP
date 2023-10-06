@@ -5,8 +5,12 @@ public class Main {
         Car choosenCar = new Car("Ferrari", 1230, "Premium", 19.6);
 
         choosenFruit.getInfo();
-        choosenFruit.growth(0.3);
+        choosenFruit.growth(1);
         choosenFruit.changeColor("Червоний");
+        choosenFruit.getInfo();
+        choosenFruit.growth(choosenFruit, 0.5);
+        choosenFruit.recursive(5,10,0);
+
         choosenFruit.getInfo();
 
         System.out.println();

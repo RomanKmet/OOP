@@ -1,15 +1,15 @@
 public class Car {
-    String modelname;
+    String modelName;
     int mileage;
-    String gastype;
-    double amountofgas;
+    String gasType;
+    double amountOfGas;
     String[] storage;
 
-    public Car(String modelname, int mileage, String gastype, double amountgas) {
-        this.modelname = modelname;
+    public Car(String modelName, int mileage, String gasType, double amountOfGas) {
+        this.modelName = modelName;
         this.mileage = mileage;
-        this.gastype = gastype;
-        this.amountofgas = amountgas;
+        this.gasType = gasType;
+        this.amountOfGas = amountOfGas;
         storage = new String[10];
     }
 
@@ -32,7 +32,7 @@ public class Car {
     }
 
         public void getInfo () {
-            String info = "Model: " + modelname + ". Mileage: " + mileage + ". Gas type: " + gastype + ". Amount of gas: " + amountofgas + "\n";
+            String info = "Model: " + modelName + ". Mileage: " + mileage + ". Gas type: " + gasType + ". Amount of gas: " + amountOfGas + "\n";
             System.out.print(info);
         }
     }

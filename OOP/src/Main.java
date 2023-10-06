@@ -10,7 +10,6 @@ public class Main {
         choosenFruit.getInfo();
         choosenFruit.growth(choosenFruit, 0.5);
         choosenFruit.recursive(5,10,0);
-
         choosenFruit.getInfo();
 
         System.out.println();

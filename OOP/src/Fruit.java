@@ -21,7 +21,7 @@ public class Fruit {
         this.color = newColor;
         System.out.println("Фрукт змінив свій колір на: " + newColor);
     }
-    public static int recursive(int Postavok, int OdnaPostavka, int resultPostavok){
+    public int recursive(int Postavok, int OdnaPostavka, int resultPostavok){
         resultPostavok+=OdnaPostavka;
         if (Postavok==1){
             System.out.println("Для заданої кількості поставок потрібно стільки фруктів "+resultPostavok);

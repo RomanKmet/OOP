@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Fruit choosenFruit = new Fruit(0.5,"Blueberry","Blue");
-        Animal choosenAnimal = new Animal("Cat","Meowchik","Scottish fold", 4.7, "Сумний");
+        Animal choosenAnimal = new Animal("Cat","Meowchik","Scottish fold", 4.7, "Сумний", 7);
         Car choosenCar = new Car("Ferrari", 1230, "Premium", 19.6);
 
         choosenFruit.getInfo();
@@ -17,7 +17,7 @@ public class Main {
         choosenAnimal.getInfo();
         choosenAnimal.changeAnimalMood("Веселий");
         choosenAnimal.eat(choosenFruit);
-        System.out.println("Тепер вага тварини: " + choosenAnimal.weight);
+        choosenAnimal.growth(2);
         choosenAnimal.getInfo();
 
         System.out.println();

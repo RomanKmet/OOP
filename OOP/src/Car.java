@@ -1,7 +1,6 @@
 public class Car {
-    String modelName;
+    String modelName, gasType;
     int mileage;
-    String gasType;
     double amountOfGas;
     String[] storage;
 

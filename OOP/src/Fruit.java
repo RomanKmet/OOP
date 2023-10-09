@@ -1,7 +1,6 @@
 public class Fruit {
     double weight;
-    String type;
-    String color;
+    String type, color;
     public Fruit(double weight, String type, String color) {
         this.weight = weight;
         this.type = type;

@@ -11,9 +11,17 @@ public class Animal {
         this.weight = weight;
         this.mood = mood;
     }
-    public int growth(int additionalHeight){
-        this.height+=additionalHeight;
-        System.out.println("Кіт змінив свій зріст на "+ additionalHeight+" см.");
+    public Animal(String type, String name, String breed, int weight, String mood, double height) {
+        this.height = (int) height;
+        this.type = type;
+        this.name = name;
+        this.breed = breed;
+        this.weight = weight;
+        this.mood = mood;
+    }
+    public int growth(int additional){
+        this.height+=additional;
+        System.out.println("Кіт змінив свій зріст на "+ additional+" см.");
         return height;
     }
     public void changeAnimalMood(String newMood) {

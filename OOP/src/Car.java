@@ -11,6 +11,13 @@ public class Car {
         this.amountOfGas = amountOfGas;
         storage = new String[10];
     }
+    public Car(String modelName, double mileage, String gasType, int amountOfGas) {
+        this.modelName = modelName;
+        this.mileage = (int) mileage;
+        this.gasType = gasType;
+        this.amountOfGas = amountOfGas;
+        storage = new String[10];
+    }
 
     public void trunk(String... items) {
         int i = 0;

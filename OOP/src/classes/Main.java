@@ -1,5 +1,7 @@
-public class Main {
-    public static void main(String[] args) {
+package classes;
+
+ class Main {
+    static void main(String[] args) {
         Fruit choosenFruit = new Fruit(0.5,"Blueberry","Blue");
         Animal choosenAnimal = new Animal("Cat","Meowchik","Scottish fold", 4.7, "Сумний", 7);
         Car choosenCar = new Car("Ferrari", 1230, "Premium", 19.6);

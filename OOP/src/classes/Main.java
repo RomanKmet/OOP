@@ -5,6 +5,7 @@ package classes;
         Fruit choosenFruit = new Fruit(0.5,"Blueberry","Blue");
         Animal choosenAnimal = new Animal("Cat","Meowchik","Scottish fold", 4.7, "Сумний", 7);
         Car choosenCar = new Car("Ferrari", 1230, "Premium", 19.6);
+        MathFinal mathObj = new MathFinal();
 
         choosenFruit.getInfo();
         choosenFruit.growth(1);
@@ -27,5 +28,14 @@ package classes;
         choosenCar.getInfo();
         choosenCar.trunk("Medkit","Water","Food");
         choosenCar.openTrunk();
+
+        System.out.println();
+
+        double circleArea = mathObj.circleArea(5.0);
+        System.out.println("Площа кола: " + circleArea);
+        double rectangleArea = mathObj.areaOfRectangle(4.0, 6.0);
+        System.out.println("Площа прямокутника: " + rectangleArea);
+        double squareArea = mathObj.areaOfSquare(4.0);
+        System.out.println("Площа квадрата: " + squareArea);
     }
 }

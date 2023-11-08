@@ -37,5 +37,10 @@ package classes;
         System.out.println("Площа прямокутника: " + rectangleArea);
         double squareArea = mathObj.areaOfSquare(4.0);
         System.out.println("Площа квадрата: " + squareArea);
+
+        System.out.println();
+
+        double resultBuy = MathStatic.buyProduct(20);
+        System.out.println("Результат купівлі: " + resultBuy);
     }
 }
